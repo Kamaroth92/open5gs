@@ -22,7 +22,7 @@ db_uri: mongodb://localhost/open5gs
 #    domain: core,sbi,ausf,event,tlv,mem,sock
 #
 logger:
-    file: @localstatedir@/log/open5gs/hss.log
+    file: /log/open5gs/hss.log
 
 hss:
     freeDiameter: @sysconfdir@/freeDiameter/hss.conf

@@ -20,7 +20,7 @@
 #    domain: core,sbi,ausf,event,tlv,mem,sock
 #
 logger:
-    file: @localstatedir@/log/open5gs/upf.log
+    file: /log/open5gs/upf.log
 
 #
 #  <PFCP Server>

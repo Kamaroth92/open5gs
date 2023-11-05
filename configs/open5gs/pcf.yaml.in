@@ -22,7 +22,7 @@ db_uri: mongodb://localhost/open5gs
 #    domain: core,sbi,ausf,event,tlv,mem,sock
 #
 logger:
-    file: @localstatedir@/log/open5gs/pcf.log
+    file: /log/open5gs/pcf.log
 
 #
 #  o TLS enable/disable

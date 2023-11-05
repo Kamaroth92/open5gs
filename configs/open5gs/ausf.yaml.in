@@ -20,7 +20,7 @@
 #    domain: core,sbi,ausf,event,tlv,mem,sock
 #
 logger:
-    file: @localstatedir@/log/open5gs/ausf.log
+    file: /log/open5gs/ausf.log
 
 #
 #  o TLS enable/disable
